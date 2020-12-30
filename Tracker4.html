@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var texter1;
+var texter2;
+var texter3;
+var texter4;
+var texter5;
+var texter6;
+var texter7;
+var texter8;
+var texter9;
+var texter10;
+var texter11;
+var texter12;
+var texter13;
+var texter14;
+var texter15;
+var texter16;
+var texter17;
+var texter18;
+var texter19;
+var texter20;
+var texter21;
+var texter22;
+var texter23;
+var texter24;
+var texter25;
+var texter26;
+var texter27;
+var texter28;
+var texter29;
+var texter30;
+var texter31;
+var texter32;
+var texter33;
+var texter34;
+var texter35;
+var texter36;
+var texter37;
+var texter38;
+var texter39;
+var texter40;
+var texter41;
+var texter42;
+var texter43;
+var texter44;
+var texter45;
+
+var liner1;
+var liner2;
+var liner3;
+var liner4;
+var liner5;
+var liner6;
+var liner7;
+var liner8;
+var liner9;
+var liner10;
+var liner11;
+var liner12;
+var liner13;
+var liner14;
+var liner15;
+var liner16;
+var liner17;
+var liner18;
+var liner19;
+var liner20;
+var liner21;
+var liner22;
+var liner23;
+var liner24;
+var liner25;
+var liner26;
+var liner27;
+var liner28;
+var liner29;
+var liner30;
+var liner31;
+var liner32;
+var liner33;
+var liner34;
+var liner35;
+var liner36;
+var liner37;
+var liner38;
+var liner39;
+
+var GetThemAll;
+
+function Button2()
+	{
+	texter1 = document.getElementById("Reps1").value;
+	texter2 = document.getElementById("Reps2").value;
+	texter3 = document.getElementById("Reps3").value;
+	texter4 = document.getElementById("Reps4").value;
+	texter5 = document.getElementById("Reps5").value;
+	texter6 = document.getElementById("Reps6").value;
+	texter7 = document.getElementById("Reps7").value;
+	texter8 = document.getElementById("Reps8").value;
+	texter9 = document.getElementById("Reps9").value;
+	texter10 = document.getElementById("Reps10").value;
+	texter11 = document.getElementById("Reps11").value;
+	texter12 = document.getElementById("Reps12").value;
+	texter13 = document.getElementById("Reps13").value;
+	texter14 = document.getElementById("Reps14").value;
+	texter15 = document.getElementById("Reps15").value;
+	texter16 = document.getElementById("Reps16").value;
+	texter17 = document.getElementById("Reps17").value;
+	texter18 = document.getElementById("Reps18").value;
+	texter19 = document.getElementById("Reps19").value;
+	texter20 = document.getElementById("Reps20").value;
+	texter21 = document.getElementById("Reps21").value;
+	texter22 = document.getElementById("Reps22").value;
+	texter23 = document.getElementById("Reps23").value;
+	texter24 = document.getElementById("Reps24").value;
+	texter25 = document.getElementById("Reps25").value;
+	texter26 = document.getElementById("Reps26").value;
+	texter27 = document.getElementById("Reps27").value;
+	texter28 = document.getElementById("Reps28").value;
+	texter29 = document.getElementById("Reps29").value;
+	texter30 = document.getElementById("Reps30").value;
+	texter31 = document.getElementById("Reps31").value;
+	texter32 = document.getElementById("Reps32").value;
+	texter33 = document.getElementById("Reps33").value;
+	texter34 = document.getElementById("Reps34").value;
+	texter35 = document.getElementById("weight1").value;
+	texter36 = document.getElementById("weight2").value;
+	texter37 = document.getElementById("weight3").value;
+	texter38 = document.getElementById("weight4").value;
+	texter39 = document.getElementById("weight5").value;
+	texter40 = document.getElementById("weight6").value;
+	texter41 = document.getElementById("weight7").value;
+	texter42 = document.getElementById("weight8").value;
+	texter43 = document.getElementById("weight9").value;
+	texter44 = document.getElementById("weight10").value;
+	texter45 = document.getElementById("weight11").value;
+	
+	var ee;
+	var d = new Date();
+	ee = d.getFullYear();
+	ee += "/"+ d.getMonth();
+	ee += "/"+ d.getDate();
+	ee += "--"+ d.getHours();
+	if (d.getMinutes() < 10)
+		{
+		ee += ":0"+ d.getMinutes();
+		}
+	else
+		{
+		ee += ":"+ d.getMinutes();
+		}
+	
+	liner0 = '<html>';
+	liner01 = '<head>';
+	liner02 = '<title> ' + ee + '</title>';
+	liner03 = '</head>';
+	liner04 = '<body>'+ ee +'<br>';
+	liner05 = 'Sunday<br><table border="5">';
+	liner1 = '<tr><td>Stretch Leg Exension:</td><td>Reps:</td><td>' + texter1 +'</td></tr>';
+	liner2 = '<tr><td>Bench:</td><td>Reps:</td><td>' + texter2 +'</td><td>Weight:</td><td>' + texter35 + '</td></tr>';
+	liner3 = '<tr><td>Stretch Touch Toes:</td><td>Reps:</td><td>' + texter3 +'</td></tr>';
+	liner4 = '<tr><td>Bend Over Row:</td><td>Reps:</td><td>' + texter4 + '</td><td>Weight:</td><td>' + texter36 + '</td></tr>';
+	liner5 = '<tr><td>Stretch Leg Exension:</td><td>Reps:</td><td>' + texter5 + '</td></tr>';
+	liner6 = '<tr><td>Military Press:</td><td>Reps:</td><td>' + texter6 + '</td><td>Weight</td><td>' + texter37 + '</td></tr>';
+	liner7 = '<tr><td>Hamstring Walk Outs:</td><td>Reps:</td><td>' + texter7 + '</td></tr>';
+	liner8 = '<tr><td>Leg Lifts:</td><td>Time:</td><td>' + texter8 + '</td></tr></table>';
+	liner9 = 'Monday<br><table border="5">';
+	liner10 = '<tr><td>Stretch Leg Exension:</td><td>Reps</td><td>' + texter9 + '</td></tr>';
+	liner11 = '<tr><td>Time Left:</td><td>' + texter10 + '</td></tr>';
+	liner12 = '<tr><td>Time Returned:</td><td>' + texter11 + '</td></tr>';
+	liner13 = '<tr><td>Stretch Leg Exension:</td><td>Reps:</td><td>' + texter12 + '</td></tr>';
+	liner14 = '<tr><td>Leg Lifts:</td><td>Time:</td><td>' + texter13 + '</td></tr>';
+	liner15 = '</table>Tuesday<br><table border="5">';
+	liner16 = '<tr><td>Stretch Leg Exension:</td><td>Reps:</td><td>' + texter14 + '</td></tr>';
+	liner17 = '<tr><td>Lat PullDowns:</td><td>Reps:</td><td>' + texter15 + '</td><td>Weight:</td><td>' + texter38 + '</td></tr>';
+	liner18 = '<tr><td>Stretch Touch Toes:</td><td>' + texter16 + '</td></tr>';
+	liner19 = '<tr><td>Flat Bench or flys:</td><td>Reps:</td><td>' + texter17 + '</td><td>Weight:</td><td>' + texter39 + '</td></tr>';
+	liner20 = '<tr><td>Stretch Leg Extension:</td><td>' + texter18 + '</td></tr>';
+	liner21 = '<tr><td>Squats:</td><td>' + texter19 + '</td><td>Weight:</td><td>' + texter40 + '</td></tr>';
+	liner22 = '<tr><td>Leg Lifts:</td><td>Time:</td><td>' + texter20 + '</td></tr>';
+	liner23 = '</table>Wednesday<br><table border="5">';
+	liner24 = '<tr><td>Stretch Leg Exension:</td><td>' + texter21 +'</td></tr>';
+	liner25 = '<tr><td>Time Left:</td><td>' + texter22 +'</td></tr>';
+	liner26 = '<tr><td>Time Returned:</td><td>' + texter23 +'</td></tr>';
+	liner27 = '<tr><td>Stretch Leg Exension:</td><td>Reps</td><td>' + texter24 +'</td></tr>';
+	liner28 = '<tr><td>Leg Lifts:</td><td>Time:</td><td>' + texter25 +'</td></tr>';
+	liner29 = '</table>Thursday<table border="5">';
+	liner30 = '<tr><td>Stretch Leg Exension:</td><td>Reps:</td><td>' + texter26 +'</td></tr>';
+	liner31 = '<tr><td>Dumbell Curls:</td><td>Reps:</td><td>' + texter27 +'</td><td>Weight</td><td>' + texter41 + '</td></tr>';
+	liner32 = '<tr><td>Stretch Touch Toes:</td><td>Reps:</td><td>' + texter28 + '</td></tr>';
+	liner33 = '<tr><td>Bench:</td><td>Reps:</td><td>' + texter29 + '</td><td>Weight</td><td>' + texter42 + '</td></tr>';
+	liner34 = '<tr><td>Stretch Leg Exension:</td><td>Reps</td><td>' + texter30 +'</td></tr>';
+	liner35 = '<tr><td>Rowing:</td><td>Reps:</td><td>' + texter31 +'</td><td>Weight</td><td>' + texter43 + '</td></tr>';
+	liner36 = '<tr><td>Shrugs:</td><td>Reps:</td><td>' + texter32 +'</td><td>Weight</td><td>' + texter44 + '</td></tr>';
+	liner37 = '<tr><td>Lunges:</td><td>Reps:</td><td>' + texter33 +'</td><td>Weight</td><td>' + texter45 + '</td></tr>';
+	liner38 = '<tr><td>Leg Lifts:</td><td>Time</td><td>' + texter34 + '</td></tr>';
+	liner39 = '</table>';
+	liner274 = '</body>';
+	liner275 = '</html>';
+		
+	GetThemAll = liner0 + liner01 + liner02 + liner03 + liner04 + liner05 + liner1 + liner2 + liner3 + liner4 + liner5 + liner6 + liner7 + liner8 + liner9 + liner10 + liner11 + liner12 + liner13 + liner14 + liner15 + liner16 + liner17 + liner18 + liner19 + liner20 + liner21 + liner22 + liner23 + liner24 + liner25 + liner26 + liner27 + liner28 + liner29 + liner30 + liner31 + liner32 + liner33 + liner34 + liner35 + liner36 + liner37 + liner38 + liner39 + liner274 + liner275;
+	document.getElementById("Reciever").value = GetThemAll;
+	}
+
+function loaditup()
+	{
+	alert("Loaded");
+	Repper1 = localStorage.getItem("Repps1");
+	Repper2 = localStorage.getItem("Repps2");
+	Repper3 = localStorage.getItem("Repps3");
+	Repper4 = localStorage.getItem("Repps4");
+	Repper5 = localStorage.getItem("Repps5");
+	Repper6 = localStorage.getItem("Repps6");
+	Repper7 = localStorage.getItem("Repps7");
+	Repper8 = localStorage.getItem("Repps8");
+	Repper9 = localStorage.getItem("Repps9");
+	Repper10 = localStorage.getItem("Repps10");
+	Repper11 = localStorage.getItem("Repps11");
+	Repper12 = localStorage.getItem("Repps12");
+	Repper13 = localStorage.getItem("Repps13");
+	Repper14 = localStorage.getItem("Repps14");
+	Repper15 = localStorage.getItem("Repps15");
+	Repper16 = localStorage.getItem("Repps16");
+	Repper17 = localStorage.getItem("Repps17");
+	Repper18 = localStorage.getItem("Repps18");
+	Repper19 = localStorage.getItem("Repps19");
+	Repper20 = localStorage.getItem("Repps20");
+	Repper21 = localStorage.getItem("Repps21");
+	Repper22 = localStorage.getItem("Repps22");
+	Repper23 = localStorage.getItem("Repps23");
+	Repper24 = localStorage.getItem("Repps24");
+	Repper25 = localStorage.getItem("Repps25");
+	Repper26 = localStorage.getItem("Repps26");
+	Repper27 = localStorage.getItem("Repps27");
+	Repper28 = localStorage.getItem("Repps28");
+	Repper29 = localStorage.getItem("Repps29");
+	Repper30 = localStorage.getItem("Repps30");
+	Repper31 = localStorage.getItem("Repps31");
+	Repper32 = localStorage.getItem("Repps32");
+	Repper33 = localStorage.getItem("Repps33");
+	Repper34 = localStorage.getItem("Repps34");
+	
+	Weightor1 = localStorage.getItem("Weightss1");
+	Weightor2 = localStorage.getItem("Weightss2");
+	Weightor3 = localStorage.getItem("Weightss3");
+	Weightor4 = localStorage.getItem("Weightss4");
+	Weightor5 = localStorage.getItem("Weightss5");
+	Weightor6 = localStorage.getItem("Weightss6");
+	Weightor7 = localStorage.getItem("Weightss7");	
+	Weightor8 = localStorage.getItem("Weightss8");
+	Weightor9 = localStorage.getItem("Weightss9");
+	Weightor10 = localStorage.getItem("Weightss10");
+	Weightor11 = localStorage.getItem("Weightss11");
+
+	document.getElementById('weight1').value = Weightor1;		
+	document.getElementById('weight2').value = Weightor2;	
+	document.getElementById('weight3').value = Weightor3;	
+	document.getElementById('weight4').value = Weightor4;	
+	document.getElementById('weight5').value = Weightor5;	
+	document.getElementById('weight6').value = Weightor6;	
+	document.getElementById('weight7').value = Weightor7;	
+	document.getElementById('weight8').value = Weightor8;	
+	document.getElementById('weight9').value = Weightor9;	
+	document.getElementById('weight10').value = Weightor10;	
+	document.getElementById('weight11').value = Weightor11;		
+
+	document.getElementById('Reps1').value = Repper1;
+	document.getElementById('Reps2').value = Repper2;
+	document.getElementById('Reps3').value = Repper3;
+	document.getElementById('Reps4').value = Repper4;
+	document.getElementById('Reps5').value = Repper5;
+	document.getElementById('Reps6').value = Repper6;
+	document.getElementById('Reps7').value = Repper7;
+	document.getElementById('Reps8').value = Repper8;
+	document.getElementById('Reps9').value = Repper9;
+	document.getElementById('Reps10').value = Repper10;
+	document.getElementById('Reps11').value = Repper11;
+	document.getElementById('Reps12').value = Repper12;
+	document.getElementById('Reps13').value = Repper13;
+	document.getElementById('Reps14').value = Repper14;
+	document.getElementById('Reps15').value = Repper15;
+	document.getElementById('Reps16').value = Repper16;
+	document.getElementById('Reps17').value = Repper17;	
+	document.getElementById('Reps18').value = Repper18;
+	document.getElementById('Reps19').value = Repper19;
+	document.getElementById('Reps20').value = Repper20;
+	document.getElementById('Reps21').value = Repper21;
+	document.getElementById('Reps22').value = Repper22;
+	document.getElementById('Reps23').value = Repper23;
+	document.getElementById('Reps24').value = Repper24;
+	document.getElementById('Reps25').value = Repper25;
+	document.getElementById('Reps26').value = Repper26;
+	document.getElementById('Reps27').value = Repper27;
+	document.getElementById('Reps28').value = Repper28;
+	document.getElementById('Reps29').value = Repper29;
+	document.getElementById('Reps30').value = Repper30;
+	document.getElementById('Reps31').value = Repper31;
+	document.getElementById('Reps32').value = Repper32;
+	document.getElementById('Reps33').value = Repper33;
+	document.getElementById('Reps34').value = Repper34;
+	}
+
+function saveitup()
+	{
+	alert("Saved");
+	Repsa1 = document.getElementById('Reps1').value;
+	Repsa2 = document.getElementById('Reps2').value;
+	Repsa3 = document.getElementById('Reps3').value;
+	Repsa4 = document.getElementById('Reps4').value;
+	Repsa5 = document.getElementById('Reps5').value;
+	Repsa6 = document.getElementById('Reps6').value;
+	Repsa7 = document.getElementById('Reps7').value;
+	Repsa8 = document.getElementById('Reps8').value;
+	Repsa9 = document.getElementById('Reps9').value;
+	Repsa10 = document.getElementById('Reps10').value;
+	Repsa11 = document.getElementById('Reps11').value;
+	Repsa12 = document.getElementById('Reps12').value;
+	Repsa13 = document.getElementById('Reps13').value;
+	Repsa14 = document.getElementById('Reps14').value;
+	Repsa15 = document.getElementById('Reps15').value;
+	Repsa16 = document.getElementById('Reps16').value;
+	Repsa17 = document.getElementById('Reps17').value;
+	Repsa18 = document.getElementById('Reps18').value;
+	Repsa19 = document.getElementById('Reps19').value;
+	Repsa20 = document.getElementById('Reps20').value;
+	Repsa21 = document.getElementById('Reps21').value;
+	Repsa22 = document.getElementById('Reps22').value;
+	Repsa23 = document.getElementById('Reps23').value;
+	Repsa24 = document.getElementById('Reps24').value;
+	Repsa25 = document.getElementById('Reps25').value;
+	Repsa26 = document.getElementById('Reps26').value;
+	Repsa27 = document.getElementById('Reps27').value;
+	Repsa28 = document.getElementById('Reps28').value;
+	Repsa29 = document.getElementById('Reps29').value;
+	Repsa30 = document.getElementById('Reps30').value;
+	Repsa31 = document.getElementById('Reps31').value;
+	Repsa32 = document.getElementById('Reps32').value;
+	Repsa33 = document.getElementById('Reps33').value;
+	Repsa34 = document.getElementById('Reps34').value;
+			
+	localStorage.setItem("Repps1", Repsa1);
+	localStorage.setItem("Repps2", Repsa2);
+	localStorage.setItem("Repps3", Repsa3);
+	localStorage.setItem("Repps4", Repsa4);
+	localStorage.setItem("Repps5", Repsa5);
+	localStorage.setItem("Repps6", Repsa6);
+	localStorage.setItem("Repps7", Repsa7);
+	localStorage.setItem("Repps8", Repsa8);
+	localStorage.setItem("Repps9", Repsa9);
+	localStorage.setItem("Repps10", Repsa10);
+	localStorage.setItem("Repps11", Repsa11);
+	localStorage.setItem("Repps12", Repsa12);
+	localStorage.setItem("Repps13", Repsa13);
+	localStorage.setItem("Repps14", Repsa14);
+	localStorage.setItem("Repps15", Repsa15);
+	localStorage.setItem("Repps16", Repsa16);
+	localStorage.setItem("Repps17", Repsa17);
+	localStorage.setItem("Repps18", Repsa18);
+	localStorage.setItem("Repps19", Repsa19);
+	localStorage.setItem("Repps20", Repsa20);
+	localStorage.setItem("Repps21", Repsa21);
+	localStorage.setItem("Repps22", Repsa22);
+	localStorage.setItem("Repps23", Repsa23);
+	localStorage.setItem("Repps24", Repsa24);
+	localStorage.setItem("Repps25", Repsa25);
+	localStorage.setItem("Repps26", Repsa26);
+	localStorage.setItem("Repps27", Repsa27);
+	localStorage.setItem("Repps28", Repsa28);
+	localStorage.setItem("Repps29", Repsa29);
+	localStorage.setItem("Repps30", Repsa30);
+	localStorage.setItem("Repps31", Repsa31);
+	localStorage.setItem("Repps32", Repsa32);
+	localStorage.setItem("Repps33", Repsa33);
+	localStorage.setItem("Repps34", Repsa34);
+	
+
+	weightsa1 = document.getElementById('weight1').value;
+	weightsa2 = document.getElementById('weight2').value;
+	weightsa3 = document.getElementById('weight3').value;
+	weightsa4 = document.getElementById('weight4').value;
+	weightsa5 = document.getElementById('weight5').value;
+	weightsa6 = document.getElementById('weight6').value;
+	weightsa7 = document.getElementById('weight7').value;
+	weightsa8 = document.getElementById('weight8').value;
+	weightsa9 = document.getElementById('weight9').value;
+	weightsa10 = document.getElementById('weight10').value;
+	weightsa11 = document.getElementById('weight11').value;
+	
+	
+	localStorage.setItem("Weightss1", weightsa1);
+	localStorage.setItem("Weightss2", weightsa2);
+	localStorage.setItem("Weightss3", weightsa3);
+	localStorage.setItem("Weightss4", weightsa4);
+	localStorage.setItem("Weightss5", weightsa5);
+	localStorage.setItem("Weightss6", weightsa6);
+	localStorage.setItem("Weightss7", weightsa7);
+	localStorage.setItem("Weightss8", weightsa8);	
+	localStorage.setItem("Weightss9", weightsa9);
+	localStorage.setItem("Weightss10", weightsa10);	
+	localStorage.setItem("Weightss11", weightsa11);			
+	
+	
+	
+	
+	}
+
+
+function ClearAllThis()
+	{
+	alert("Cleared");
+	localStorage.clear();
+	}
+	
+	
+
+
+
+</script>
+
+
+
+<img src="SaveIconSmall.png" onclick="saveitup()" /><img src="LoadBox.png" onclick="loaditup()" /><img src="Clear.png" onclick="ClearAllThis()" /><img src="ShipOut.png" onclick="Button2()" />
+<h2>Sunday</h2>
+<table border="5">
+<tr><td>Stretch Leg Exension</td><td>Reps</td><td><input type="text" id="Reps1" /></td></tr>
+<tr><td>Bench</td><td>Reps:</td><td><input type="text" id="Reps2"/></td><td>Weight</td><td><input type="text" id="weight1"></td></tr>
+<tr><td>Stretch Touch Toes</td><td>Reps:</td><td><input type="text" id="Reps3" /></td></tr>
+<tr><td>Bend Over Row</td><td>Reps:</td><td><input type="text" id="Reps4"/></td><td>Weight</td><td><input type="text" id="weight2"></td></tr>
+<tr><td>Stretch Leg Exension</td><td>Reps:</td><td><input type="text" id="Reps5" /></td></tr>
+<tr><td>Military Press</td><td>Reps:</td><td><input type="text" id="Reps6" /></td><td>Weight</td><td><input type="text" id="weight3"></td></tr>
+<tr><td>Hamstring Walk Outs</td><td>Reps:</td><td><input type="text" id="Reps7" /></td></tr>
+<tr><td>Leg Lifts</td><td>Time:</td><td><input type="text" id="Reps8" /></td></tr>
+</table>
+
+<h2>Monday</h2>
+<table border="5">
+<tr><td>Stretch Leg Exension</td><td>Reps</td><td><input type="text" id="Reps9" /></td></tr>
+<tr><td>Time Left</td><td><input type="text" id="Reps10" /></td></tr>
+<tr><td>Time Returned</td><td><input type="text" id="Reps11" /></td></tr>
+<tr><td>Stretch Leg Exension</td><td>Reps:</td><td><input type="text" id="Reps12" /></td></tr>
+<tr><td>Leg Lifts</td><td>Time:</td><td><input type="text" id="Reps13" /></td></tr>
+</table>
+
+<h2>Tuesday</h2>
+<table border="5">
+<tr><td>Stretch Leg Exension</td><td>Reps:</td><td><input type="text" id="Reps14" /></td></tr>
+<tr><td>Lat PullDowns</td><td>Reps:</td><td><input type="text"id="Reps15" /></td><td>Weight</td><td><input type="text" id="weight4"></td></tr>
+<tr><td>Stretch Touch Toes</td><td>Reps:</td><td><input type="text" id="Reps16" /></td></tr>
+<tr><td>Flat Bench or flys</td><td>Reps:</td><td><input type="text" id="Reps17" /></td><td>Weight</td><td><input type="text" id="weight5"></td></td></tr>
+<tr><td>Stretch Leg Extension</td><td>Reps:</td><td><input type="text" id="Reps18" /></td></tr>
+<tr><td>Squats</td><td>Reps:</td><td><input type="text" id="Reps19" /></td><td>Weight</td><td><input type="text" id="weight6"></td></tr>
+<tr><td>Leg Lifts</td><td>Time:</td><td><input type="text" id="Reps20" /></td></tr>
+</table>
+
+<h2>Wednesday</h2>
+<table border="5">
+<tr><td>Stretch Leg Exension</td><td>Reps</td><td><input type="text" id="Reps21" /></td></tr>
+<tr><td>Time Left</td><td><input type="text" id="Reps22" /></td></tr>
+<tr><td>Time Returned</td><td><input type="text" id="Reps23" /></td></tr>
+<tr><td>Stretch Leg Exension</td><td>Reps:</td><td><input type="text" id="Reps24" /></td></tr>
+<tr><td>Leg Lifts</td><td>Time:</td><td><input type="text" id="Reps25" /></td></tr>
+</table>
+
+<h2>Thursday</h2>
+<table border="5">
+<tr><td>Stretch Leg Exension</td><td>Reps:</td><td><input type="text" id="Reps26" /></td></tr>
+<tr><td>Dumbell Curls</td><td>Reps:</td><td><input type="text" id="Reps27" /></td><td>Weight</td><td><input type="text" id="weight7"></td></tr>
+<tr><td>Stretch Touch Toes</td><td>Reps:</td><td><input type="text" id="Reps28" /></td></tr>
+<tr><td>Bench</td><td>Reps:</td><td><input type="text" id="Reps29"/></td><td>Weight</td><td><input type="text" id="weight8"></td></tr>
+<tr><td>Stretch Leg Exension</td><td>Reps:</td><td><input type="text" id="Reps30" /></td></tr>
+<tr><td>Rowing</td><td>Reps:</td><td><input type="text" id="Reps31" /></td><td>Weight</td><td><input type="text" id="weight9"></td></tr>
+<tr><td>Shrugs</td><td>Reps:</td><td><input type="text" id="Reps32" /></td><td>Weight</td><td><input type="text" id="weight10"></td></tr>
+<tr><td>Lunges</td><td>Reps:</td><td><input type="text" id="Reps33" /></td><td>Weight</td><td><input type="text" id="weight11"></td></tr>
+<tr><td>Leg Lifts</td><td>Time:</td><td><input type="text" id="Reps34" /></td></tr>
+</table>
+<img src="SaveIconSmall.png" onclick="saveitup()" /><img src="LoadBox.png" onclick="loaditup()" /><img src="Clear.png" onclick="ClearAllThis()" /><img src="ShipOut.png" onclick="Button2()" />
+<br><br><br>
+<textarea cols="85" rows="10" id="Reciever"></textarea>
+
+
+</body>
+</html>
